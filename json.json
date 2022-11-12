@@ -1,0 +1,34 @@
+{
+    "screens": [
+      {
+        "name": "Tela 1",
+        "default": true,
+        "components": [
+          {
+            "type": "Button",
+            "name": "Go Screen 2",
+            "navigation": "Tela 2"
+          },
+          {
+            "type": "CoponentImage",
+            "name": "Image 1",
+            "urlImage": "https://images.pexels.com/photos/13986096/pexels-photo-13986096.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Tela 2",
+        "components": [
+          {
+            "type": "CoponentList",
+            "name": "List 1",
+            "urlImage": "https://images.pexels.com/photos/13986096/pexels-photo-13986096.jpeg"
+          }, {
+            "type": "Button",
+            "name": "Go Screen 2",
+            "navigation": "Tela 1"
+          }
+        ]
+      }
+    ]
+  }
